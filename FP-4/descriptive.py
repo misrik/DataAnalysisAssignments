@@ -13,7 +13,7 @@ def plot_regression_line(ax, x, y, color='k', ls='-', lw=2):
     ax.plot([x0, x1], [y0, y1], color=color, ls=ls, lw=lw)
 
 
-def plot_descriptive(df):
+def descriptive(df):
 
     dd  = df['Death Description']
     mag = df['Mag']
