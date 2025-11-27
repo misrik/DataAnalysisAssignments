@@ -78,3 +78,4 @@ def descriptive(df):
         ax.text(0.02, 0.92, f'({s})', size=12, transform=ax.transAxes)
 
     plt.show()
+
